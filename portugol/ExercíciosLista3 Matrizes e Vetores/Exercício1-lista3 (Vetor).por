@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 programa
 {
 	
 	funcao inicio()
 	{
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+>>>>>>> branch 'main' of https://github.com/ofpaola/turma16java.git
 
      inteiro valorPont[5], maior=0
      
