@@ -1,16 +1,10 @@
-<<<<<<< HEAD
+
 programa
 {
 	
 	funcao inicio()
 	{
-=======
-programa
-{
-	
-	funcao inicio()
-	{
->>>>>>> branch 'main' of https://github.com/ofpaola/turma16java.git
+
 
      inteiro valorPont[5], maior=0
      
@@ -30,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 174; 
+ * @POSICAO-CURSOR = 34; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

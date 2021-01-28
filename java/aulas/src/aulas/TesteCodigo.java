@@ -7,7 +7,9 @@ public class TesteCodigo {
 		Scanner leia = new Scanner(System.in);
 		int valor;
 		
-		System.out.println("Digite um número int");
+		System.out.println("Digite um número inteiro positivo: ");
+		valor = leia.nextInt();
+		
 	}
 
 }
