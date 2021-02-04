@@ -7,41 +7,66 @@ public class Ex6ContaBancariaClasse {
 		int cpf;
 		double saldo;
 		double limite;
-		
-		public String titular() {
+
+		public String getTitular() {
 			return titular;
 		}
-		public void titular (String titular) {
+
+
+
+		public void setTitular(String titular) {
 			this.titular = titular;
 		}
-		
-		public int numeroConta() {
+
+
+
+		public int getNumeroConta() {
 			return numeroConta;
 		}
-		public void numeroConta (int numeroConta) {
+
+
+
+		public void setNumeroConta(int numeroConta) {
 			this.numeroConta = numeroConta;
 		}
-		
-		public int cpf() {
+
+
+
+		public int getCpf() {
 			return cpf;
 		}
-		public void cpf (int cpf) {
+
+
+
+		public void setCpf(int cpf) {
 			this.cpf = cpf;
 		}
-		
-		public double saldo() {
+
+
+
+		public double getSaldo() {
 			return saldo;
 		}
-		public void saldo (double saldo) {
+
+
+
+		public void setSaldo(double saldo) {
 			this.saldo = saldo;
 		}
-		
-		public double limite() {
+
+
+
+		public double getLimite() {
 			return limite;
 		}
-		public void limite (double limite) {
+
+
+
+		public void setLimite(double limite) {
 			this.limite = limite;
 		}
+
+
 
 		public Ex6ContaBancariaClasse (String titular, int numeroConta, int cpf, double saldo, double limite) {
 			this.titular = titular;
