@@ -36,6 +36,12 @@ public class Empregado {
 		return horas*valorHora;
 	}
 	
+	public Empregado(String nome, int matricula, int horas) {
+		super();
+		this.nome = nome;
+		this.matricula = matricula;
+		this.horas = horas;
+	}
 	public Empregado(String nome, int matricula, int horas, double valorHora) {
 		super();
 		this.nome = nome;

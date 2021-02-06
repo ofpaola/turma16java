@@ -7,20 +7,19 @@ public class Ex5PatineteClasse {
 	double velocidadeAtual;
 	double velocidadeMaxima;
 	
-	public String tipo() {
+	public String getTipo() {
 		return tipo;
 	}
-	public void tipo (String tipo) {
+	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-	
-	public String cor() {
+	public String getCor() {
 		return cor;
 	}
-	public void cor (String cor) {
+	public void setCor(String cor) {
 		this.cor = cor;
 	}
-	
+
 	void liga() {
 		System.out.println("O patinete está ligado!");
 	}

@@ -6,34 +6,31 @@ public class Ex1ClienteClasse {
 	String endereco;
 	int telefone;
 	
-	public String nome() {
+	public String getNome() {
 		return nome;
 	}
-	public void nome (String nome) {
+	public void setNome(String nome) {
 		this.nome = nome;
 	}
-		
-	public int idade() {
+	public int getIdade() {
 		return idade;
 	}
-	public void idade (int idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	
-	public String endereco() {
+	public String getEndereco() {
 		return endereco;
 	}
-	public void endereco (String endereco) {
+	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
-	
-	public int telefone() {
+	public int getTelefone() {
 		return telefone;
 	}
-	public void telefone (int telefone) {
+	public void setTelefone(int telefone) {
 		this.telefone = telefone;
 	}
-	
+
 	public Ex1ClienteClasse (String nome, int idade, String endereco, int telefone) {
 		this.nome = nome;
 		this.idade = idade;

@@ -6,27 +6,25 @@ public class Ex4FuncionarioClasse {
 		String cargo;
 		double salario;
 		
-		public String nome() {
+		public String getNome() {
 			return nome;
 		}
-		public void nome (String nome) {
+		public void setNome(String nome) {
 			this.nome = nome;
 		}
-		
-		public String cargo() {
+		public String getCargo() {
 			return cargo;
 		}
-		public void cargo (String cargo) {
+		public void setCargo(String cargo) {
 			this.cargo = cargo;
 		}
-		
-		public double salario() {
+		public double getSalario() {
 			return salario;
 		}
-		public void salario (double salario) {
+		public void setSalario(double salario) {
 			this.salario = salario;
 		}
-		
+
 		public Ex4FuncionarioClasse (String nome, String cargo, double salario) {
 			this.nome = nome;
 			this.cargo = cargo;

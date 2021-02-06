@@ -5,20 +5,19 @@ public class Ex2AviaoClasse {
 		String tipo;
 		int qntdAssentos;
 		
-		public String tipo() {
+		public String getTipo() {
 			return tipo;
 		}
-		public void tipo (String tipo) {
+		public void setTipo(String tipo) {
 			this.tipo = tipo;
 		}
-		
-		public int qntdAssentos() {
+		public int getQntdAssentos() {
 			return qntdAssentos;
 		}
-		public void qntdAssentos (int qntdAssentos) {
+		public void setQntdAssentos(int qntdAssentos) {
 			this.qntdAssentos = qntdAssentos;
 		}
-		
+
 		public Ex2AviaoClasse (String tipo, int qntdAssentos) {
 			this.tipo = tipo;
 			this.qntdAssentos = qntdAssentos;

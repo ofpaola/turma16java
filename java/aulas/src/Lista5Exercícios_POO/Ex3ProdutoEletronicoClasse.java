@@ -5,27 +5,26 @@ public class Ex3ProdutoEletronicoClasse {
 		double valor;
 		int quantidade;
 		
-		public String produto() {
+		public String getProduto() {
 			return produto;
 		}
-		public void produto (String produto) {
+		public void setProduto(String produto) {
 			this.produto = produto;
 		}
-		
-		public double valor() {
+		public double getValor() {
 			return valor;
 		}
-		public void valor (double valor) {
+		public void setValor(double valor) {
 			this.valor = valor;
 		}
-		
-		public int quantidade() {
+		public int getQuantidade() {
 			return quantidade;
 		}
-		public void quantidade (int quantidade) {
+		public void setQuantidade(int quantidade) {
 			this.quantidade = quantidade;
 		}
-		
+
+
 		public Ex3ProdutoEletronicoClasse (double valor, int quantidade, String produto) {
 			this.valor = valor;
 			this.quantidade = quantidade;

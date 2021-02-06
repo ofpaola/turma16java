@@ -15,7 +15,7 @@ public class AdegaDesafio {
 	  
 	  System.out.print("\nPor favor, digite seu nome: ");
 	  adega.nome = leia.nextLine();
-	  System.out.print("Agora, digite sua data de nascimento: ");
+	  System.out.print("Agora, digite seu ano de nascimento: ");
 	  adega.anoNascimento = leia.nextInt();
 	  System.out.print("Informe seu sexo (F)feminino, (M)masculino ou (O)outros: ");
 	  adega.sexo = leia.next().charAt(0);
