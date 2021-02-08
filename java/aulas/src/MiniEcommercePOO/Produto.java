@@ -1,44 +1,42 @@
 package MiniEcommercePOO;
 
 public class Produto {
-
-	private int codigo;
-	private int qtdEstoque;
-	private double preco;
-	private String descricao;
-
 	
-	public int getCodigo() {
+	private String codigo;
+	private String nome;
+	private int quantidade;
+	private double precoUnitario;
+	
+	public Produto(String codigo, String nome, int quantidade, double precoUnitario) {
+		this.codigo = codigo;
+		this.nome = nome;
+		this.quantidade = quantidade;
+		this.precoUnitario = precoUnitario;
+	}
+
+	public String getCodigo() {
 		return codigo;
 	}
-	public void setCodigo(int codigo) {
+	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
-	public int getQtdEstoque() {
-		return qtdEstoque;
+	public String getNome() {
+		return nome;
 	}
-	public void setQtdEstoque(int qtdEstoque) {
-		this.qtdEstoque = qtdEstoque;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
-	public double getPreco() {
-		return preco;
+	public int getQuantidade() {
+		return quantidade;
 	}
-	public void setPreco(double preco) {
-		this.preco = preco;
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
 	}
-	public String getDescricao() {
-		return descricao;
+	public double getPrecoUnitario() {
+		return precoUnitario;
 	}
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setPrecoUnitario(double precoUnitario) {
+		this.precoUnitario = precoUnitario;
 	}
-	
-	
-	public Produto(int codigo, int qtdEstoque, double preco, String descricao) {
-		super();
-		this.codigo = codigo;
-		this.qtdEstoque = qtdEstoque;
-		this.preco = preco;
-		this.descricao = descricao;
-	}
+
 }

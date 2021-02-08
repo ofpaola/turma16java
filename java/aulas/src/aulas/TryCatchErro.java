@@ -2,7 +2,7 @@ package aulas;
 
 import java.util.Scanner;
 
-public class TryCatch {
+public class TryCatchErro {
 	public static void main(String[] args) 
 		{
 			Scanner leia = new Scanner(System.in);
