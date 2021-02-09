@@ -1,4 +1,4 @@
-package aulas;
+package Aulas;
 
 public class Oi {
 	public static void main(String[] args) {
