@@ -5,24 +5,14 @@ public class Conta {
 	private String cpf;
 	private double saldo;
 	
-	
-	public void debitar(double valor)
-	{
-		if (valor <= saldo)
-		{
-			saldo = saldo - valor;
-			System.out.printf("Salto atual = R$ %.2f", saldo);
-		}
-		else
-		{
-			System.out.printf("Não foi possivel debitar pois seu saldo atual é = R$ %.2f",saldo);
-		}
-		
-	}
-	
 	public void creditar(double valor)
 	{
 		saldo = valor + saldo;
+	}
+	public void debitar (double valor) {
+		if (valor <= saldo) {
+			saldo = saldo - valor; 
+		}
 	}
 	public String getNumero() {
 		return numero;
@@ -40,13 +30,6 @@ public class Conta {
 		return saldo;
 	}
 	
-	
-	public Conta(String numero, String cpf, double saldo) {
-		super();
-		this.numero = numero;
-		this.cpf = cpf;
-		this.saldo = saldo;
-	}
 	public Conta(String numero, String cpf) {
 		super();
 		this.numero = numero;

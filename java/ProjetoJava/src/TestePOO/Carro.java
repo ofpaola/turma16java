@@ -9,10 +9,12 @@ public class Carro {
 		void liga() {
 			System.out.println("O carro está ligado...");
 		}
+		
 		void acelera(double quantidade) {
 			double velocidadeNova = this.velocidadeAtual+quantidade;
 			this.velocidadeAtual = velocidadeNova;
 		}
+		
 		int pegaMarcha() {
 			if(this.velocidadeAtual<0) {
 				return -1;

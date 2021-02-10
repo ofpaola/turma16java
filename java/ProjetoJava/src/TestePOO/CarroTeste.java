@@ -1,6 +1,6 @@
 package TestePOO;
 
-public class TesteCarro {
+public class CarroTeste {
 
 	public static void main(String[] args) {
 		
